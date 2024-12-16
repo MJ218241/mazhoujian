@@ -1,0 +1,13 @@
+train: D:/fruit_identification/fruit classification/train/images
+val: D:/fruit_identification/fruit classification/valid/images
+test: D:/fruit_identification/fruit classification/test/images
+
+nc: 5
+names: ['Apple', 'Lemon', 'Orange', 'Pear', 'Straberry']
+
+roboflow:
+  workspace: fruit-classification-7xl4t
+  project: fruit-classification-model
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fruit-classification-7xl4t/fruit-classification-model/dataset/1
